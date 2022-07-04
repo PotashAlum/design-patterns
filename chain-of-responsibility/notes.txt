@@ -1,0 +1,7 @@
+Chain of responsibility is useful when:
+1. validating an input
+2. validating permissions
+3. validating licenses
+4. validating responsibility
+
+Open Questions, would it be the right pattern to use for cascading processes?
