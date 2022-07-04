@@ -1,0 +1,15 @@
+Reduce coupling between classes that call one another and make code more reusable
+
+Example Drawing Application:
+Clear canvas
+
+editor->clearAll()->strokes = [];
+
+functions are replaced with command objects;
+
+Class structure could look something like the following:
+A Command Interface that has an execute method that must be overriden by the concrete implementations
+The concrete implementation can use any data in addition to the class pointer that the command is supposed to go in
+
+
+The end result is the calling classes don't need to know about the implementation of the class that has the commands in it.
