@@ -1,0 +1,7 @@
+Multiple classes depending on each other
+
+For example a user interface
+
+This might be something to think about for the UI of Reality Studio.
+
+Also this seems to be the pattern we are using for the Reconstruction class. 
